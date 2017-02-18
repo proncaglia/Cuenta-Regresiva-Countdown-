@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title></title>
+<link href="estilo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="lib.js"></script>
+</head>
+<body OnLoad="CuentaRegresiva();">
+	<div id="marco">
+		<div id="aviso">Countdown</div>
+		<div id="recdia" class="recuadros">
+			<div class="titulos">DIAS</div>
+			<div id="dias" class="digitos"></div>
+		</div>
+		<div id="rechoras" class="recuadros">
+			<div class="titulos">HORAS</div>
+			<div id="horas" class="digitos"></div>
+		</div>
+		<div id="recminutos" class="recuadros">
+			<div class="titulos">MIN.</div>
+			<div id="minutos" class="digitos"></div>
+		</div>
+		<div id="recsegundos" class="recuadros"> 
+			<div class="titulos">SEG.</div>
+			<div id="segundos" class="digitos"></div>
+		</div>
+		<div id="footer" onclick="ingreso();">.:Entrar:.</div>
+	</div>
+	<div id="ventana">
+		<div id="cerrar">X</div>                           
+		<form id="formulario" name="login" method="POST" action="index.php">                    
+			<h1>Acceso restringido</h1>                             
+			<br>
+			<label for="usuario">Usuario:</label>                                     
+			<input type="text" name="usuario"/>                    
+			<label for="clave">Contrase&ntilde;a:</label>                                        
+			<input type="password" name="clave"/>   
+			<button type="submit">Ingresar</button>
+		</form>                                         
+	</div>	
+</body>
+</html>

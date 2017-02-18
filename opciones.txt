@@ -1,0 +1,23 @@
+estilos:
+		bordes
+		fondos
+		tamaños
+		tiutlos
+		minusculas
+		primer letra mayuscula
+		mayusculas
+		tipo de letra
+Separadores:
+		:
+		|
+		/
+		ninguno
+		personalizado *		
+Opciones:
+		dias
+		horas
+		minutos
+		segundos
+		dias:horas
+		dias:horas:minutos
+		dias:horas:minutos:segundos		
