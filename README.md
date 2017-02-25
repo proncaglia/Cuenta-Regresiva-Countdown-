@@ -10,3 +10,4 @@ Contiene plantilla de inicio de sesión para el ingreso del propietario al sitio
 
 Copiar y pegar los archivos en el directorio público del servidor web.
 
+![alt tag](https://github.com/proncaglia/Cuenta-Regresiva-Countdown-/blob/master/screenshots/contador.png)
