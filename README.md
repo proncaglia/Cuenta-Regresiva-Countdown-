@@ -1,4 +1,4 @@
-# CuentaRegresiva
+# Cuenta Regresiva (Countdown)
 
 Cuenta Regresiva (countdown) en Javascript. 
 
