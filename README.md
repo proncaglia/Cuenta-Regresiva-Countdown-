@@ -1,6 +1,4 @@
-# Cuenta Regresiva (Countdown)
-
-Cuenta Regresiva (countdown) en Javascript. 
+# JavaScript Countdown
 
 Contador regresivo simple en JavaScript. 
 
